@@ -62,8 +62,8 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKER_HUB_USERNAME }}
-          password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
+          username: ${{ secrets.irwansh }}
+          password: ${{ secrets.Rr8fHSIcFLvGdv5d0iCmI2Jr8aw }}
 
       # Tag the Docker image
       - name: Tag Docker Image
